@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+
+    <title>Inscrição - Spotify</title>
+
+</head>
+
+<body id="inscricao">
+
+    <header>
+        <!--Início do cabeçalho-->
+        <div class="text-center p-4 container">
+            <a href="index.html">
+                <!--Definindo o logo-->
+                <img id="logo-inscricao" class="img-fluid" src="imagens/spotify.svg" width="197" height="59"
+                    alt="Logo Spotify">
+            </a>
+        </div>
+        <hr>
+    </header>
+
+    <!--/Fim do cabeçalho-->
+
+    <section id="formulario" class="d-flex">
+        <!--Início Home-->
+        <div class="container mt-4">
+            <!--Início container-->
+
+            <div class="row d-flex p-2">
+                <a href="#" class="btn m-auto btn-sm btn-face">
+                    inscrever-se com o <br> facebook
+                </a>
+            </div>
+
+            <fieldset class="mt-2">
+                <div class="row d-flex">
+                    <input type="checkbox" name="fb" id="fb">
+                    <label class="pl-2" for="fb">
+
+                        Eu concordo com os <a href="#">Termos e condições </a> do Spotify. <br><br>
+                        Para saber mais sobre como o Spotify coleta, processa,
+                        compartilha e <br> protege seus dados pessoais, leia a
+                        <a href="">Política de privacidade</a> do Spotify.
+
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="row">
+                <div class=" col-sm-5 d-none d-sm-block" style="border-top: 1px solid #929292ce; z-index: 0; line-height: 0em; "></div>
+                <div class=" col-sm-1 d-flex justify-content-center" style="z-index: 1;line-height: 1em;">ou</div>
+                <div class="col-sm-5 " style="border-top: 1px solid #929292ce; z-index: 0; line-height: 0em; "></div>
+            </div>
+
+                <h2 class="mt-2">Inscrever-se com seu endereço de e-mail</h2>
+            <form>
+                <input type="email" class="form-control caixa-input mt-4" name="email" placeholder="E-mail">
+                <input type="email" class="form-control caixa-input mt-3" name="confirmar-email" placeholder="Confirmar e-mail">
+                <input type="password" class="form-control caixa-input mt-3" name="senha" placeholder="Senha">
+                <input type="text" class="form-control caixa-input mt-3" name="nome" placeholder="Como devemos chamar você?">
+                <label  for="data">
+                    <h6 style="margin-top: 20px; margin-bottom: 0;"> Data de nascimento:</h6>
+                </label>
+                <div class="container mt-0">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <input type="number" class="mt-2 form-control" name="data" id="dia" placeholder="Dia">
+                        </div>
+                        <div class="col-sm-6">
+                            <select class="mt-2 form-control" name="data" id="mes">
+                                <option >Mês</option>
+                                <option value="01">Janeiro</option>
+                                <option value="01">Fevereiro</option>
+                                <option value="01">Março</option>
+                                <option value="01">Abril</option>
+                                <option value="01">Maio</option>
+                                <option value="01">Junho</option>
+                                <option value="01">Julho</option>
+                                <option value="01">Agosto</option>
+                                <option value="01">Setembro</option>
+                                <option value="01">Outubro</option>
+                                <option value="01">Novembro</option>
+                                <option value="01">Dezeembro</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="number" class="form-control mt-2" placeholder="Ano" name="data" id="ano">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-4">
+                        <input type="radio" name="M" id="m">
+                        <label for="M"><h6>Masculino</h6></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="radio" name="f" id="f">
+                        <label for="f"><h6>Feminino</h6></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="radio" name="b" id="b">
+                        <label for="b"><h6>Não binário</h6></label>
+                    </div>
+                </div>
+                <div class="row">  
+                    <div class="col-sm-1">
+                        <input type="checkbox" name="dados" id="dados">
+                    </div>
+                    <div class="col-sm-11 pl-0">
+                        <label class="pl-2" for="dados">
+                            Compartilhar meus dados cadastrais com os provedores de conteúdo do Spotify para fins de marketing.
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <input type="checkbox" name="face" id="face">
+                    </div>
+                    <div class="col-sm-11 pl-0">
+                        <label class="pl-2" for="face">
+                            Eu concordo com os <a href="#">Termos e condições </a> do Spotify. <br><br>
+                            Para saber mais sobre como o Spotify coleta, processa,
+                            compartilha e protege seus dados pessoais, leia a
+                            <a href="">Política de privacidade</a> do Spotify.
+                        </label>
+                    </div>
+                </div>
+            </form>
+
+            <div class="row d-flex p-2">
+                <a href="#" class="btn m-auto btn-sm btn-insc">
+                    Inscrever-se
+                </a>
+            </div>
+            <div class="container">
+                <div class="row rodape justify-content-center">
+                    <p>Já tem uma conta? <a href=""> Entrar</a></p>
+                </div>
+            </div>
+    
+            <!--/Fim row-->
+        </div>
+        
+        <!--/Fim container-->
+    </section>
+    <!--/Fim formulario-->
+        
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f52e8a30e8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

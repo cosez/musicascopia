@@ -1,0 +1,6 @@
+html, body, #home{
+    height: 100%;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
